@@ -373,3 +373,79 @@ Saves the feature importance scores to BigQuery for record-keeping and future an
 - **Recommended Model**: LightGBM with SMOTE demonstrated the best performance, achieving 88.55% accuracy and 0.7932 AUC.  
 
 ---
+
+Here’s how the updated GitHub-style documentation could look with the inclusion of Power BI integration and visualization details:
+
+---
+
+# Bank Subscription Analysis and Predictive Visualization in Power BI
+
+This project analyzes a bank marketing campaign dataset and visualizes key insights using **BigQuery** and **Power BI**. It includes SQL-based data analysis and a two-page interactive Power BI report.
+
+---
+
+## Table of Contents
+
+## Power BI Dashboard
+
+### Overview
+
+The Power BI dashboard is designed to visualize the SQL query outputs and include predictive analysis based on additional machine learning results. The dashboard is split into two pages:
+
+### Page 1: Insights and Trends
+
+#### Features:
+- **Summary Statistics**: Displays total records, subscribed, unsubscribed, and subscription ratio.
+- **Demographics Analysis**: Shows subscription trends by age group and job category.
+- **Financial Indicators**: Visualizes the subscription ratio across balance groups and job types.
+- **Campaign Effectiveness**: Visualizes subscription success based on call duration and previous campaign interactions.
+- **Time Trends**: Displays subscription trends by month and day.
+
+#### Example Visuals:
+- **Bar Chart**: Subscription ratio by job and age group.
+- **Pie Chart**: Overall subscription status (subscribed vs. unsubscribed).
+- **Line Chart**: Subscription trends across months.
+- **Heat Map**: Subscription trends across days of the month.
+
+---
+
+### Page 2: Predictive Analysis
+
+#### Features:
+This page is dedicated to predictive analysis using machine learning outputs from the `bank_prediction` and `feature_table` datasets.
+
+- **Dataset**: 
+  - **`bank_prediction`**: Contains predicted subscription probabilities for each client.
+  - **`feature_table`**: Contains feature importance scores from the ML model.
+
+#### Example Visuals:
+- **Scatter Plot**: Predicted subscription probability vs. actual outcomes.
+- **Feature Importance Chart**: Highlights the key predictors influencing the subscription outcome.
+- **Gauge Chart**: Displays the overall model accuracy or AUC score.
+
+#### Use Cases:
+- Identify high-probability clients for targeted marketing.
+- Understand which features (e.g., balance, age, campaign interaction) have the most impact on subscription likelihood.
+
+---
+
+## BigQuery and Power BI Connection
+
+### Setup Process:
+1. **Enable BigQuery API**:
+   - Ensure that the BigQuery API is enabled in the Google Cloud Console.
+   
+2. **Connect Power BI to BigQuery**:
+   - In Power BI, choose **Get Data** > **Google BigQuery**.
+   - Authenticate using Google credentials.
+   - Select the appropriate project and dataset.
+
+3. **Import SQL Views**:
+   - Import the SQL views (e.g., `basic_summary`, `demographic_summary`, `financial_summary`) etc created in the SQL script.
+   - Use DirectQuery for real-time updates or Import Mode for faster performance.
+
+4. **Data Modeling**:
+   - Establish relationships between imported tables/views in Power BI.
+   - Use calculated columns and measures for additional transformations if required.
+
+---
