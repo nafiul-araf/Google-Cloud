@@ -2,7 +2,7 @@
 
 This SQL script analyzes a bank marketing campaign dataset to derive insights into client subscriptions, demographic trends, financial indicators, and campaign effectiveness. It is divided into the following sections:
 
-[View The Dashboard](https://nafiul-araf.github.io/Google-Cloud/Bank%20Subscription%20Analysis/)
+[View The Dashboard](https://app.powerbi.com/view?r=eyJrIjoiNDRhZTUzNGQtNGYzMy00NTVmLTg5NzYtOTk3YjgyZmMxOWZmIiwidCI6IjhjMTI4NjJkLWZjYWYtNGEwNi05M2FjLTk0Yjk3YjVjZWQ1NSIsImMiOjEwfQ%3D%3D)
 
 ## Table of Contents
 
