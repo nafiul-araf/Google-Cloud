@@ -1,20 +1,45 @@
-# Bank Subscription Analysis SQL Script in BigQuery
+# Project Summary: Bank Customer Subscription Analysis  
 
-This SQL script analyzes a bank marketing campaign dataset to derive insights into client subscriptions, demographic trends, financial indicators, and campaign effectiveness. It is divided into the following sections:
+**Objective**:  
+To analyze customer subscription data from a bank’s marketing campaigns, identify key factors influencing subscription behavior, and build predictive models to optimize future campaigns.  
+
+**Approach**:  
+1. **Data Exploration and Cleaning**:  
+   - Utilized **BigQuery** to explore and clean the dataset.  
+   - Removed anomalies such as negative balances and categorized data based on age, balance, job, and campaign metrics.  
+
+2. **Data Analysis**:  
+   - Conducted in-depth analysis to understand the impact of demographics, financial indicators, and campaign interactions on subscription outcomes.  
+   - Explored trends in customer behavior and campaign performance.  
+
+3. **Predictive Modeling**:  
+   - Built and evaluated machine learning models to predict the likelihood of customer subscriptions.  
+   - Analyzed feature importance to understand the driving factors behind predictions.  
+
+4. **Visualization**:  
+   - Integrated **BigQuery** with **Power BI** to create interactive dashboards.  
+   - **Page 1**: Visualized SQL-based analysis, including demographics, financial insights, and campaign trends.  
+   - **Page 2**: Presented machine learning predictions and key features affecting customer subscriptions.  
+
+**Key Findings**:  
+- Younger customers and those with higher account balances were more likely to subscribe.  
+- Follow-ups with previously contacted customers significantly improved subscription rates.  
+- Short, targeted campaigns were more effective than prolonged interactions.  
+
+**Skills & Tools**:  
+- **BigQuery** for data querying and transformation.  
+- **Machine Learning** for building predictive models.  
+- **Power BI** for interactive data visualization and reporting.  
+
+This project demonstrates the application of data analysis and machine learning in solving real-world business challenges while delivering actionable insights through visualization tools.  
 
 [View The Dashboard](https://app.powerbi.com/view?r=eyJrIjoiNDRhZTUzNGQtNGYzMy00NTVmLTg5NzYtOTk3YjgyZmMxOWZmIiwidCI6IjhjMTI4NjJkLWZjYWYtNGEwNi05M2FjLTk0Yjk3YjVjZWQ1NSIsImMiOjEwfQ%3D%3D)
 
-## Table of Contents
+---
 
-1. [Explore Data](#1-explore-data)
-2. [Basic Data Cleaning](#2-basic-data-cleaning)
-3. [Data Analysis](#3-data-analysis)  
-   3.1 [Basic Summary](#31-basic-summary)  
-   3.2 [Demographics Analysis](#32-demographics-analysis)  
-   3.3 [Financial Indicators](#33-financial-indicators)  
-   3.4 [Campaign Effectiveness](#34-campaign-effectiveness)  
-   3.5 [Time and Subscription Trends](#35-time-and-subscription-trends)  
-4. [Combine Key Insights](#4-combine-key-insights)
+# Bank Subscription Analysis SQL Script in BigQuery
+
+This SQL script analyzes a bank marketing campaign dataset to derive insights into client subscriptions, demographic trends, financial indicators, and campaign effectiveness. It is divided into the following sections:
 
 ---
 
@@ -385,8 +410,6 @@ Here’s how the updated GitHub-style documentation could look with the inclusio
 This project analyzes a bank marketing campaign dataset and visualizes key insights using **BigQuery** and **Power BI**. It includes SQL-based data analysis and a two-page interactive Power BI report.
 
 ---
-
-## Table of Contents
 
 ## Power BI Dashboard
 
