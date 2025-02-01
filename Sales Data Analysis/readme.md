@@ -62,8 +62,4 @@ This project successfully provided:
 ✅ **Dynamic Power BI reporting**, enabling business users to interact with insights seamlessly.  
 
 ### **Conclusion**  
-By combining **hierarchical clustering** and **predictive analytics**, this project delivers a **comprehensive business intelligence framework** that enhances strategic planning, profitability analysis, and operational efficiency. 
-
-
-
-https://app.powerbi.com/view?r=eyJrIjoiNDc3NzUzZjUtNmVlNy00NjIzLTlkZWItYzg1ZGI4MmViZjA3IiwidCI6IjhjMTI4NjJkLWZjYWYtNGEwNi05M2FjLTk0Yjk3YjVjZWQ1NSIsImMiOjEwfQ%3D%3D
+By combining **hierarchical clustering** and **predictive analytics**, this project delivers a **comprehensive business intelligence framework** that enhances strategic planning, profitability analysis, and operational efficiency.
