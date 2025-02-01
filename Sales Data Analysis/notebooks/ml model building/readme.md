@@ -1,4 +1,4 @@
-# Feature Engineering and Model Building Documentation
+# Feature Engineering and Model Building
 
 ## Introduction
 This document provides a detailed explanation of the feature engineering and model-building pipeline used for a regression problem. It covers data preprocessing, encoding, feature selection, and model training with Linear Regression. Each section explains the **what**, **why**, and **how** behind the code.
