@@ -127,6 +127,7 @@ This project demonstrates the power of a **data-driven marketing approach**. The
 ---
 
 # File Structure of this Repository
+
 📦 Marketing Campaign Optimization
 │
 ├── 📂 Notebook
