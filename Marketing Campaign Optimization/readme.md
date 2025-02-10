@@ -128,19 +128,20 @@ This project demonstrates the power of a **data-driven marketing approach**. The
 
 # File Structure of this Repository
 
-📦 **Marketing Campaign Optimization**  
-├── 📂 **Notebook**  
-│   ├── 📂 **Data Preparation**  
-│   │   ├── 📄 ETL.ipynb  
-│   │  
-│   ├── 📂 **Exploratory Data Analysis**  
-│   │   ├── 📄 EDA.ipynb  
-│   │  
-│   ├── 📂 **Statistical Analysis**  
-│   │   ├── 📄 Hypothesis_Test_and_Regression_Analysis.ipynb  
-│  
-├── 📂 **Dashboard**  
-│   ├── 📄 Campaign Report.pbix  
-│   ├── 📄 Project Report.pdf  
-│  
-├── 📄 README.md *(Main documentation file)*
+📦 Marketing Campaign Optimization
+│
+├── 📂 Notebook
+│   ├── 📂 Data Preparation
+│   │   └── ETL.ipynb
+│   │
+│   ├── 📂 Exploratory Data Analysis
+│   │   └── EDA.ipynb
+│   │
+│   ├── 📂 Statistical Analysis
+│   │   └── Hypothesis_Test_and_Regression_Analysis.ipynb
+│
+├── 📂 Dashboard
+│   ├── Campaign Report.pbix
+│   ├── Project Report.pdf
+│
+└── README.md  (Main documentation file)
